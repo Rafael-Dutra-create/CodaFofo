@@ -2,7 +2,6 @@
 import {afterAll, beforeAll, vi} from 'vitest'
 import {createDB} from "@/tests/utils/createDB";
 import {pool} from "@/lib/db";
-import bcrypt from "bcrypt";
 import path from "path";
 import dotenv from 'dotenv';
 import {deleteDB} from "@/tests/utils/deleteDB";
